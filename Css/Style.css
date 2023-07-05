@@ -6,39 +6,30 @@
   justify-content: space-between;
   margin :10px;
   padding :10px
+  
 }
 #image {
-  width:55px;
-  height:55px
+  width:5%;
+  height:5%
 }
 
-#image1 {
-  width:90px;
-  height:90px;
-}
 .navigation {
   display :flex;
   gap: 15px;
   border: 1px solid black;
   padding :10px;
-  height : 20px;
   align-items: center;
   border-radius: 5px;
+  width :fit-content;
+  height: fit-content;
 }
 
-
-#link1, #link2, #link3 {
+#button1, #button2, #button3{
   text-decoration: none;
   color: black;
   padding: 10px
-  
 }
 
-#link2 {
-  border-left: 1px black solid;
-  border-right: 1px black solid;
-  padding : 10px;
-}
 .containerTitle{
   display : flex;
   justify-content: center;
@@ -69,10 +60,11 @@
   margin-right: 35px;
   background-color: #d5d8dc;
   border-radius : 5px;
+  height: fit-content;
 }
 .imageReview {
-  max-height: 450px;
-  max-width: 900px;
+  max-height: 50%;
+  max-width: 100%;
 }
 .comment{
   color: grey;
@@ -93,6 +85,11 @@
 #contactus {
   padding-left: 15px
 }
+
+#image1 {
+  width: 100px;
+  height: 100px;
+}
 #caption {
   font-size: 15px;
   padding-left: 15px
@@ -102,12 +99,14 @@
   flex-direction : column;
   padding-left : 15px;
   font-size :15px;
+  width:fit-content
 }
 .containerBorder {
-  width : 250px;
+  width : 2o0px;
   height : 30px;
   border : 2px #bec0c3 solid;
   border-radius : 5px;
+  margin: 10px;
 }
 input[placeholder] {
   padding: 10px;
@@ -123,6 +122,8 @@ input[placeholder] {
 .buttonSend {
   margin:16px 0px 16px;
   padding: 10px;
+  width:fit-content;
+  height: fit-content
 }
 .ourpackage {
   background-color: #d5d8dc;
@@ -130,8 +131,21 @@ input[placeholder] {
   text-align: center;
   color :#2f3031
 }
+
 /* testing to push git */
 
 @media screen and (max-width: 1000px){
-
-  }
+.head{
+  flex-direction: column;
+  align-content: center;
+}
+.navigation {
+  margin-top: 20px;
+}
+.containerForm {
+  width:200px
+}
+.container {
+  flex-direction: column;
+}
+}
