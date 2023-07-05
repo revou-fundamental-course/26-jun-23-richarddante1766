@@ -1,0 +1,137 @@
+* {
+  font-family : arial
+}
+.head{
+  display : flex;
+  justify-content: space-between;
+  margin :10px;
+  padding :10px
+}
+#image {
+  width:55px;
+  height:55px
+}
+
+#image1 {
+  width:90px;
+  height:90px;
+}
+.navigation {
+  display :flex;
+  gap: 15px;
+  border: 1px solid black;
+  padding :10px;
+  height : 20px;
+  align-items: center;
+  border-radius: 5px;
+}
+
+
+#link1, #link2, #link3 {
+  text-decoration: none;
+  color: black;
+  padding: 10px
+  
+}
+
+#link2 {
+  border-left: 1px black solid;
+  border-right: 1px black solid;
+  padding : 10px;
+}
+.containerTitle{
+  display : flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center
+}
+.title {
+  color :#2f3031
+}
+.subtitle {
+  color: grey
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+#review {
+  flex-basis: 60%;
+  flex-grow : 0;
+  justify-items: center;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+#form {
+  flex-basis: 40%;
+  flex-grow : 0;
+  margin-right: 35px;
+  background-color: #d5d8dc;
+  border-radius : 5px;
+}
+.imageReview {
+  max-height: 450px;
+  max-width: 900px;
+}
+.comment{
+  color: grey;
+  font-style: italic;
+  text-align:center
+}
+.block {
+  display : flex
+}
+#gambar {
+  justify-content : flex-end;
+  margin:10px;
+}
+#reviewer {
+  justify-content : flex-start;
+  margin: 10px;
+}
+#contactus {
+  padding-left: 15px
+}
+#caption {
+  font-size: 15px;
+  padding-left: 15px
+}
+.containerForm {
+  display : flex; 
+  flex-direction : column;
+  padding-left : 15px;
+  font-size :15px;
+}
+.containerBorder {
+  width : 250px;
+  height : 30px;
+  border : 2px #bec0c3 solid;
+  border-radius : 5px;
+}
+input[placeholder] {
+  padding: 10px;
+}
+.containerButton{
+  width : 250px;
+  height : 30px;
+  border : 2px #bec0c3 solid;
+  border-radius : 5px;
+  background-color: #2f3031;
+  color: white
+}
+.buttonSend {
+  margin:16px 0px 16px;
+  padding: 10px;
+}
+.ourpackage {
+  background-color: #d5d8dc;
+  padding: 30px;
+  text-align: center;
+  color :#2f3031
+}
+/* testing to push git */
+
+@media screen and (max-width: 1000px){
+
+  }
