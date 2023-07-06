@@ -9,8 +9,8 @@
   
 }
 #image {
-  width:5%;
-  height:5%
+  width:50px;
+  height:50px
 }
 
 .navigation {
@@ -27,7 +27,8 @@
 #button1, #button2, #button3{
   text-decoration: none;
   color: black;
-  padding: 10px
+  padding: 10px;
+  background-color: white;
 }
 
 .containerTitle{
@@ -82,6 +83,17 @@
   justify-content : flex-start;
   margin: 10px;
 }
+.garis {
+  width:20%}
+
+.why{
+  padding :10px
+}
+
+#pertama, #kedua, #ketiga {
+  padding:4px;
+  letter-spacing: 1px
+}
 #contactus {
   padding-left: 15px
 }
@@ -92,17 +104,19 @@
 }
 #caption {
   font-size: 15px;
-  padding-left: 15px
+  padding-left: 15px;
+  padding-right: 15px
 }
 .containerForm {
   display : flex; 
   flex-direction : column;
   padding-left : 15px;
+  padding-right : 15px;
   font-size :15px;
   width:fit-content
 }
 .containerBorder {
-  width : 2o0px;
+  width : 100px;
   height : 30px;
   border : 2px #bec0c3 solid;
   border-radius : 5px;

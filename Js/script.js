@@ -1,23 +1,14 @@
-const inputName = document.getElementById ("inputName");
-const inputEmail = document.getElementById ("inputEmail");
-const inputPhoneNumber = document.getElementById ("inputPhoneNumber");
-const inputMessage = document.getElementById ("inputMessage");
-const submitButton = document.getElementById ("submitButton");
-
-submitButton.addEventListener ("click", function(event)) {
-    event.preventDefault()
-    const inputNameValue = inputName.value
-    const inputEmailValue = inputEmail.value
-    const inputPhoneNumberValue = inputPhoneNumber.value
-    const inputMessageValue = inputMessage.value
-    nameValidation(inputEmailValue, inputEmailValue, inputPhoneNumberValue ,inputMessageValue)
-
-}
-
-function nameValidation (inputName, inputEmail, inputPhoneNumber, inputMessage){
+function nameValidation() {
+    var inputName = document.forms["containerForms"]["inputName"].value;
+    var inputEmail = document.forms["containerForms"]["inputEmail"].value;
+    var inputPhoneNumber = document.forms["containerForms"]["inputPhoneNumber"].value;
+    var inputMessage = document.forms["containerForms"]["inputMessage"].value;
     if (inputName == "") {
-        alert ("Username Empty")
+      alert("Username Empty");
+      return false;
     } else {
-        alert ("success")
+      alert("Done!");
+      return false;
     }
-}
+    return false;
+  }

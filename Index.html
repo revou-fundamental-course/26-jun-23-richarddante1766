@@ -7,21 +7,30 @@
   
   <body>
     <header class="head">
+       <a href="#home">
         <img id="image" alt="logo" src="Assets/Logo.png">
-      <section class="navigation">
-        <button id="button1" href="">
-          Home
-        </button>
-        <button id="button2" href="">
-          Our Package
-        </button>
-        <button id="button3" href="">
-          Call us
-        </button>
+      </a> 
+        <section class="navigation">
+        <a href="#home">
+          <button id="button1">
+            Home
+          </button>
+        </a>
+        <a href="#content">
+          <button id="button2">
+            ourpackage
+          </button>
+        </a>
+        <a href="">
+          <button id="button3">
+            Call us
+          </button>
+        </a>
       </section>
     </header>
     <hr>
     <section class="containerTitle">
+      <a name="home">
       <h1 class="title">
         Top Rated E-Grecories Shop in Indonesia 
       </h1>
@@ -34,7 +43,6 @@
        <section>
          <img class ="imageReview" alt="groceries" src="Assets/Groceries.jpg">
          <p class="comment"> "setiap hari beli sayur buah fresh di sini" </p>
-      </section>
       <section class ="block">
          <section id="gambar">
         <img id="image1" alt="account" src="Assets/Account.avif">
@@ -43,12 +51,22 @@
         <H1> Florence Hughes </H1>
         <p class="comment"> Ibu rumah tangga, 28 </p>
           </section>
+        </section>
+        <hr class="garis">
+          <section class="why">
+           <h1> Kenapa kamu harus berbelanja di Green Market? </h1>
+            <ol type="1">
+            <li id="pertama">  Green market merupakan tempat berbelanja berbasis virtual pertama di Indonesia yang menawarkan pengalaman berbelanja yang berbeda kepada pelanggan. </li>
+            <li id="kedua"> Kami menjamin pelayanan yang terbaik kepada seluruh pelanggan Green Market. </li>
+            <li id="ketiga"> Bebas ongkir serta pengirimin satu hari sampai </li>
+           </ol>
+          </section>
       </section>
          </section>
       <section id="form">
         <H1 id="contactus"> Contact Us </H1>
         <p id="caption"> Sales akan menghubungi anda 2 x 24 jam setelah data kami terima. </p>
-        <form class="containerForm">
+        <form class="containerForm" name="containerForms" onsubmit="return nameValidation()">
           <label for="inputName">
             <h4> Your Name : </h4>
           </label>
@@ -69,11 +87,15 @@
             <button class="containerButton" id="submitButton" type="submit">  SEND </button> 
           </div> 
         </form>
+      </a>
+      <script src="script.js"></script>
       </section>
     </main>
+    <a name="content">
     <main class="ourpackage">
       <h1> Our Package </h1>
     </main>
+    </a>
     <script src="Js/script.js"></script>
   </body>
   </Html>
