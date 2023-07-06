@@ -145,7 +145,31 @@ input[placeholder] {
   text-align: center;
   color :#2f3031
 }
-
+.contentContainer {
+  display:flex;
+  flex-direction: column;
+}
+.bannerAutoslide {
+  max-width:100%;
+  margin:auto;
+}
+#banner{
+  padding:10px;
+  max-width: 50%;
+  max-height: 100%;
+  }
+.end {
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+}
+.closing{
+  text-align: center;
+}
+.ending {
+  display: flex;
+  text-align: center;
+}
 /* testing to push git */
 
 @media screen and (max-width: 1000px){
